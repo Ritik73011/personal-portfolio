@@ -83,7 +83,7 @@ function Navbar(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar component="nav" color="primary">
         <Toolbar>
           <IconButton
             color="inherit"
