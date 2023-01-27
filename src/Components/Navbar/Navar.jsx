@@ -19,6 +19,7 @@ import { ColorModeContext } from "../../App";
 import { useContext } from "react";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
+import About from "../About/About";
 
 const drawerWidth = 240;
 const navItems = ["About", "Projects", "Skills", "Contact"];
@@ -159,7 +160,7 @@ function Navbar(props) {
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
         {/*Add Component Here*/}
-
+          <About/>
         {/*Add Component Here*/}
       </Box>
     </Box>

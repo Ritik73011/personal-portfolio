@@ -1,0 +1,3 @@
+export let summary = 'A Skilled full stack developer and quick learner who can quickly adapt to new environments. Currently, I love to work on web application using technologies like Javascript, React, Chakra UI, Node JS, Express, Mongo DB and Firebase.';
+export let name = 'Ritik Kumar Singh';
+export let image = 'https://firebasestorage.googleapis.com/v0/b/collection-mart.appspot.com/o/DSC_3315.JPG?alt=media&token=f5706b24-b72b-4b7f-b8e6-903da2047947'
