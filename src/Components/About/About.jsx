@@ -18,16 +18,16 @@ const About = () => {
       }}
     >
       <Box sx={{ maxWidth: media ? "100%" : "60%", width: "100%" }}>
-        <Typography variant={media?"h5":"h4"}>HELLO</Typography>
-        <Typography variant={media?"h4":"h3"} sx={{ marginTop: "10px" }}>
+        <Typography variant={media?"h5":"h4"} sx={{marginBottom:media?"0":"8px"}}>HELLO,</Typography>
+        <Typography variant={media?"h4":"h3"} sx={{ marginTop: "10px",display:media?"block":"inline" }}>
           I am{" "}
+        </Typography>
           <Typography
-            variant="h3"
-            sx={{ display: "inline", color: "primary.main", fontWeight: media?"500":"600" }}
+            variant={media?"h4":"h3"}
+            sx={{ display: "inline", color: "primary.main", fontWeight: media?"600":"600" }}
           >
             {name}
           </Typography>
-        </Typography>
         <Typography sx={{ marginTop: "20px" }}>{summary}</Typography>
         <Box sx={{ display:media?"block":"none", maxWidth: media ? "100%" : "40%", width: "100%",marginTop:"20px" }}>
         <Box
