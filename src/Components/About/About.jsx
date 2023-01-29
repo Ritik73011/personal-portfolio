@@ -66,11 +66,12 @@ const About = () => {
           </Button>
         </Box>
       </Box>
-      <Box sx={{ display:media?"none":"block", maxWidth: media ? "100%" : "40%", width: "100%" }}>
+      <Box sx={{ display:media?"none":"block", position:"relative",maxWidth: media ? "100%" : "40%", width: "100%" }}>
         <Box
           sx={{
+            position:"absolute",
             maxWidth: "320px",
-            margin: "auto",
+            right:"0px",
             width: "100%",
             borderRadius: "36px",
             bgcolor: "primary.main",
