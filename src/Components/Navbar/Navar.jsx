@@ -14,7 +14,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { useTheme } from "@mui/material";
+import { Link, useTheme } from "@mui/material";
 import { ColorModeContext } from "../../App";
 import { useContext } from "react";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
@@ -61,11 +61,13 @@ function Navbar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+            <Link key={item} href={"#"+item}>
+          <ListItem disablePadding>
             <ListItemButton sx={{ textAlign: "start" }}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
+            </Link>
         ))}
         <ListItem>
           <ListItemButton
@@ -109,9 +111,10 @@ function Navbar(props) {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff", margin: "0 6px" }}>
+              <Link key={item} href={"#"+item}><Button sx={{ color: "#fff", margin: "0 6px" }}>
                 {item}
               </Button>
+              </Link>
             ))}
             <Button
               sx={{

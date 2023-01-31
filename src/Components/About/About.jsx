@@ -15,7 +15,10 @@ const About = () => {
         justifyContent: "space-around",
         gap: "16px",
         textAlign: media ? "center" : "left",
+        maxWidth:"1400px",
+        margin:"0 auto"
       }}
+      id="About"
     >
       <Box sx={{ maxWidth: media ? "100%" : "60%", width: "100%" }}>
         <Typography variant={media?"h5":"h4"} sx={{marginBottom:media?"0":"8px"}}>HELLO,</Typography>
