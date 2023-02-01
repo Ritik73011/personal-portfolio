@@ -22,6 +22,7 @@ import Brightness7Icon from "@mui/icons-material/Brightness7";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
+import Contact from "../Contact/Contact";
 
 const drawerWidth = 240;
 const navItems = ["About", "Projects", "Skills", "Contact"];
@@ -168,6 +169,7 @@ function Navbar(props) {
           <About/>
           <Projects/>
           <Skills/>
+          <Contact/>
         {/*Add Component Here*/}
       </Box>
     </Box>
