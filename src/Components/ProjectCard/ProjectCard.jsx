@@ -5,7 +5,7 @@ import { Card, Link, Typography,Box } from '@mui/material';
 import './ProjectCard.css'
 const ProjectCard = ({project}) => {
   return (
-    <Card sx={{padding:"2em",margin:"0 auto",textAlign:"center",boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",transition:"transform 0.2s linear","&:hover":{transform: "translateY(-7px)"},position:"relative"}}>
+    <Card sx={{padding:"2em",margin:"0 auto",textAlign:"center",boxShadow:"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",transition:"transform 0.2s linear","&:hover":{transform: "translateY(-7px)"},position:"relative"}}>
     <img src={project.img} alt='' style={{width:"100%"}}/>
     <Typography variant='h6' sx={{marginTop:"8px",fontWeight:"bolder",minHeight:"64px"}}>{project.name}</Typography>
 

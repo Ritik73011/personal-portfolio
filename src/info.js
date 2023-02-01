@@ -70,3 +70,61 @@ export const projects = [
     }
   ]
   
+export const skillList = [
+    {
+      title: "HTML",
+      logo: "https://mohitkss.github.io/static/media/html5.4e6edfe05f07c383e94f.png",
+    },
+    {
+      title: "CSS",
+      logo: "https://mohitkss.github.io/static/media/css3.845e8eb63836bef093cf.png",
+    },
+    {
+      title: "JavaScript",
+      logo: "https://mohitkss.github.io/static/media/js.3dfb665e058d08c99f28.png",
+    },
+    {
+      title: "React",
+      logo: "https://mohitkss.github.io/static/media/react.22d1f2096ed82cab7a8a.png",
+    },
+    {
+      title: "Redux",
+      logo: "https://mohitkss.github.io/static/media/redux.7fec6369cecd1cbd44d6.png",
+    },
+    {
+      title: "Node JS",
+      logo: "https://mohitkss.github.io/static/media/nodejs.b508473ad71a31ce2fae.png",
+    },
+    {
+      title: "Mongo DB",
+      logo: "https://mohitkss.github.io/static/media/mongodb.4f7af09e6354d51beec8.png",
+    },
+    {
+      title: "Chakra UI",
+      logo: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
+    },
+    {
+      title: "Material UI",
+      logo: "https://mui.com/static/logo.png",
+    },
+    {
+      title: "Git",
+      logo: "https://mohitkss.github.io/static/media/git.b1472a80b81e487179cf.png",
+    },
+    {
+      title: "Github",
+      logo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    },
+    {
+      title: "ExpressJS",
+      logo: "https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png",
+    },
+    {
+      title: "Firebase",
+      logo: "https://logodix.com/logo/1858340.png",
+    },
+    {
+      title: "Core Java",
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    }
+  ];
