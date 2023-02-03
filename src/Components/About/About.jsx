@@ -19,7 +19,7 @@ const About = () => {
     window.open('https://www.linkedin.com/in/ritik-kumar-singh-161618208/','_blank');
   }
   const WhatsAppMe = ()=>{
-    window.open('https://wa.me/9304613678','_blank');
+    window.open('https://wa.me/919304613678','_blank');
   }
   return (
     <Box
