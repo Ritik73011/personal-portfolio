@@ -6,7 +6,7 @@ const GitHub = () => {
   };
   return (
     <Box sx={{ marginTop: "80px" }} id="Stats">
-      <Typography variant="h4">GitHub</Typography>
+      <Typography variant="h4">GITHUB STATS</Typography>
       <Box sx={{ marginTop: "24px" }}>
         <img
           src="https://github-readme-activity-graph.cyclic.app/graph?username=Ritik73011&theme=redical"
@@ -41,7 +41,7 @@ const GitHub = () => {
         <img
           src="https://ghchart.rshah.org/Ritik73011"
           alt="Ritik git stats"
-          style={{ width: "100%", marginTop: "32px" }}
+          style={{ width: "100%", marginTop: "16px" }}
         />
       </Box>
     </Box>
