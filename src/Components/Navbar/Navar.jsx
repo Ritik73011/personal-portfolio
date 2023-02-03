@@ -23,9 +23,10 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 import Contact from "../Contact/Contact";
+import GitHub from "../GitHub/GitHub";
 
 const drawerWidth = 240;
-const navItems = ["About", "Projects", "Skills", "Contact"];
+const navItems = ["About", "Projects", "Skills","Stats", "Contact"];
 
 function Navbar(props) {
   const { window } = props;
@@ -118,16 +119,6 @@ function Navbar(props) {
               </Button>
               </Link>
             ))}
-            <Button
-              sx={{
-                color: "#fff",
-                margin: "0 6px",
-                border: "1px solid lightgrey",
-              }}
-              onClick={downloadResume}
-            >
-              {"RESUME"}
-            </Button>
 
             <IconButton
               sx={{ ml: 1 }}
@@ -169,6 +160,7 @@ function Navbar(props) {
           <About/>
           <Projects/>
           <Skills/>
+          <GitHub/>
           <Contact/>
         {/*Add Component Here*/}
       </Box>
