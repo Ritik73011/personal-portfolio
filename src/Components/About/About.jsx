@@ -34,7 +34,7 @@ const About = () => {
       id="About"
     >
       <Box sx={{ maxWidth: media ? "100%" : "60%", width: "100%" }}>
-        <Typography variant={media?"h5":"h4"} sx={{marginBottom:media?"0":"8px"}}>HELLO,</Typography>
+        <Typography variant={media?"h5":"h4"} sx={{marginBottom:media?"0":"8px"}}>Hello,</Typography>
         <Typography variant={media?"h4":"h3"} sx={{ marginTop: "10px",display:media?"block":"inline" }}>
           I am{" "}
         </Typography>
