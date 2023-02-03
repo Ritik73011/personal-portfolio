@@ -38,7 +38,9 @@ function Navbar(props) {
   /*Dark Mode*/
 
   //Download Resume
-  const downloadResume = () => {};
+  const downloadResume = () => {
+    
+  };
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
@@ -77,7 +79,7 @@ function Navbar(props) {
             onClick={downloadResume}
             sx={{ textAlign: "start", border: "1px solid lightgrey" }}
           >
-            <ListItemText primary={"RESUME"} />
+            <Link sx={{textDecoration:"none"}} target='_blank' href="https://drive.google.com/file/d/1reUkdHLMHBh4_hGiyT9uhqvTZg1k4PAR/view?usp=sharing"><ListItemText primary={"RESUME"} /></Link>
           </ListItemButton>
         </ListItem>
       </List>
