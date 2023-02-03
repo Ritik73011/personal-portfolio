@@ -8,6 +8,19 @@ import DownloadIcon from "@mui/icons-material/Download";
 import "./About.css";
 const About = () => {
   const media = useMediaQuery("(max-width:600px)");
+
+  const downloadResume = ()=>{
+    window.open('https://drive.google.com/file/d/1reUkdHLMHBh4_hGiyT9uhqvTZg1k4PAR/view?usp=sharing','_blank');
+  }
+  const gitClick = ()=>{
+    window.open('https://github.com/Ritik73011','_blank');
+  }
+  const linkdlnClick = ()=>{
+    window.open('https://www.linkedin.com/in/ritik-kumar-singh-161618208/','_blank');
+  }
+  const WhatsAppMe = ()=>{
+    window.open('https://wa.me/9304613678','_blank');
+  }
   return (
     <Box
       sx={{
@@ -55,16 +68,16 @@ const About = () => {
             marginTop: "24px",
           }}
         >
-          <Button variant="outlined">
+          <Button variant="outlined" onClick={downloadResume}>
             <DownloadIcon sx={{ marginRight: "8px" }} /> Resume
           </Button>
-          <Button variant="outlined">
+          <Button variant="outlined" onClick={gitClick}>
             <GitHubIcon sx={{ marginRight: "8px" }} /> GitHub
           </Button>
-          <Button variant="outlined">
+          <Button variant="outlined" onClick={linkdlnClick}>
             <LinkedInIcon sx={{ marginRight: "8px" }} /> LinkedIn
           </Button>
-          <Button variant="outlined">
+          <Button variant="outlined" onClick={WhatsAppMe}>
             <WhatsAppIcon sx={{ marginRight: "8px" }} /> WhatsApp
           </Button>
         </Box>
