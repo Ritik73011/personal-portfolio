@@ -69,16 +69,16 @@ const About = () => {
           }}
         >
           <Button variant="outlined" onClick={downloadResume}>
-            <DownloadIcon sx={{ marginRight: "8px" }} /> Resume
+            <DownloadIcon sx={{ marginRight: "8px", color:"#f4a104" }} /> Resume
           </Button>
           <Button variant="outlined" onClick={gitClick}>
             <GitHubIcon sx={{ marginRight: "8px" }} /> GitHub
           </Button>
           <Button variant="outlined" onClick={linkdlnClick}>
-            <LinkedInIcon sx={{ marginRight: "8px" }} /> LinkedIn
+            <LinkedInIcon sx={{ marginRight: "8px",color:'#0270ad' }} /> LinkedIn
           </Button>
           <Button variant="outlined" onClick={WhatsAppMe}>
-            <WhatsAppIcon sx={{ marginRight: "8px" }} /> WhatsApp
+            <WhatsAppIcon sx={{ marginRight: "8px",color:'#48c458' }} /> WhatsApp
           </Button>
         </Box>
       </Box>
